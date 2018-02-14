@@ -6,10 +6,10 @@ body {
     background-size: 100% 100%;
     image-rendering: optimizeSpeed;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* 27C */
     align-items: center;
     font-family: Pacifico;
-    color: #020402;
+    color: #020402; 
 }
 
 .menu-container {
@@ -18,7 +18,7 @@ body {
     background-color: #E5B642;
     opacity: 0.8;
     display: flex;  /* 25F */
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* 27E */
     align-content: space-around;
     align-items: flex-start;
     padding: 100px 20px 100px 20px;
@@ -29,7 +29,7 @@ body {
     list-style: none;
     margin-bottom: 30px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 25px; /* 23D */
 }
 .button-list {
     display: flex;
