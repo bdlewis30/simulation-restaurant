@@ -17,7 +17,7 @@ body {
     width: 65%;
     background-color: #E5B642;
     opacity: 0.8;
-    display: flex;
+    display: flex;  /* 25F */
     flex-wrap: wrap;
     align-content: space-around;
     align-items: flex-start;
@@ -43,19 +43,19 @@ body {
     width: 150px;
     background-color: #6F934C;
     opacity: 0.8;
-    position: absolute;
+    position: absolute; /* 25C */
     left: 0px;
 }
 
 .sidebar .logout {
-    display: absolute;
+    position: absolute;   
     bottom: 10px;
 }
 
 .details-btn {
     background-color: #6F934C;
     color: #AF3236;
-    border-radius: 7px;
+    border-radius: 7px;  /* 24D */
     padding: 5px 10px;
     margin: 0px 30px 24px 15px;
     font-family: Pacifico;
