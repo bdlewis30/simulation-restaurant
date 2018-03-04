@@ -1,9 +1,9 @@
-body {  
-    background-image: url('./assets/katie-smith-104748.jpg'); /*23F */
+.loginContainer {  
+    background-image: url('../assets/katie-smith-104748.jpg'); /*23F */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 60% 60%; 
-    background-size: 105% 185%;
+    background-size: 108%;
     image-rendering: optimizeSpeed;
     display: flex;
     justify-content: center;
@@ -13,15 +13,16 @@ body {
 }
 
 .auth-container {
-    height: 80%;
-    width: 75%;
+    height: 60%;
+    width: 74%;
     background-color: #6F934C;
     opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px 20px 100px 20px;
-    margin-top: 8%;
+    margin: 6%;
+    border-radius: 1%;
 }
 
 .auth-container h1, h2 {

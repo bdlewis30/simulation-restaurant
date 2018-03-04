@@ -1,0 +1,10 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item-inputs {
+    margin-bottom: 10px;
+}

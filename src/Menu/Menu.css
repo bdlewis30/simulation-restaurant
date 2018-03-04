@@ -1,5 +1,5 @@
-body {  
-    background-image: url('./assets/herson-rodriguez-96102.jpg'); /*23F */
+.menu-container {  
+    background-image: url('../assets/herson-rodriguez-96102.jpg'); /*23F */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 60% 60%; 
@@ -10,9 +10,10 @@ body {
     align-items: center;
     font-family: Pacifico;
     color: #020402; 
+    position: relative;
 }
 
-.menu-container {
+.menu-items-container {
     height: 80%;
     width: 65%;
     background-color: #E5B642;

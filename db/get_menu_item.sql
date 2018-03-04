@@ -1,0 +1,2 @@
+SELECT * FROM Menu
+WHERE id = $1;
